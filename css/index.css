@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+.info {
+    line-height: 1.75;
+    color: #333;
+    font-family: MicroSoft YaHei;
+    font-size: 1.5rem;
+}
+
+.imglist {
+    text-align: center;
+    margin-top: 5vw;
+    margin-right: 32%;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #0BD0F3;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    background: url(../img/beijin.jpg);
+    background-size: 50%;
+    border-radius: 10px;
+    width: 85%;
+    background-size: 95%;
+}
+
+.header {
+    height: 25vw;
+    margin-bottom: 10px;
+}
+
+.photo {
+    width: 15vw;
+    height: 23vw;
+    background-image: url(../img/photo.png);
+    background-size: 15vw;
+    background-position-x: 0.5vw;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
